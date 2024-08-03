@@ -14,40 +14,46 @@ import YouTubeVideo_2VC from './YouTubeVideo_2VC.js';
 function App() {
   return (
     <div className="App">
-      <h2 style={{ marginTop: '20px', color: 'white' }}>DOCUMENTAL "TATA SANTIAGO" - VERSIÓN RESUMIDA</h2>
-      <YouTubeVideo_VR videoId="KzeU0id_miE" />
+      <h2 className="title">DOCUMENTAL "TATA SANTIAGO" - VERSIÓN RESUMIDA</h2>
+      <div className="video-center">
+        <YouTubeVideo_VR videoId="KzeU0id_miE" />
+      </div>
 
       <div className="video-section">
         <div className="video-pair">
           <div className="video-left">
-            <h2 style={{ marginTop: '20px', color: 'white' }}>PARTE I</h2>
+            <h2 className="title">PARTE I</h2>
             <YouTubeVideo_1VR videoId="RfMapUg4VA0" />
           </div>
           <div className="video-right">
-            <h2 style={{ marginTop: '20px', color: 'white' }}>PARTE II</h2>
+            <h2 className="title">PARTE II</h2>
             <YouTubeVideo_2VR videoId="wyWbGfoxg5I" />
           </div>
         </div>
       </div>
 
-      <h2 style={{ marginTop: '20px', color: 'white' }}>DOCUMENTAL "TATA SANTIAGO" - VERSIÓN EXTENDIDA</h2>
-      <YouTubeVideo_VC videoId="DTCiGAmSWuw" />
+      <h2 className="title">DOCUMENTAL "TATA SANTIAGO" - VERSIÓN EXTENDIDA</h2>
+      <div className="video-center">
+        <YouTubeVideo_VC videoId="DTCiGAmSWuw" />
+      </div>
 
       <div className="video-section">
         <div className="video-pair">
           <div className="video-left">
-            <h2 style={{ marginTop: '20px', color: 'white' }}>PARTE I</h2>
+            <h2 className="title">PARTE I</h2>
             <YouTubeVideo_1VC videoId="eQdN4vU2AQM" />
           </div>
           <div className="video-right">
-            <h2 style={{ marginTop: '20px', color: 'white' }}>PARTE II</h2>
+            <h2 className="title">PARTE II</h2>
             <YouTubeVideo_2VC videoId="knC4w4rrwQo" />
           </div>
         </div>
       </div>
 
-      <h2 style={{ marginTop: '20px', color: 'white' }}>VIDEO PASANTES 2024 MORENADA SAN GABRIEL</h2>
-      <YouTubeVideo videoId="x_Mi_yOa_Bo" />
+      <h2 className="title">VIDEO PASANTES 2024 MORENADA SAN GABRIEL</h2>
+      <div className="video-center">
+        <YouTubeVideo videoId="x_Mi_yOa_Bo" />
+      </div>
 
       <ConstructionPage />
     </div>
