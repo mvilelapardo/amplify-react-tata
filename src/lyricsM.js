@@ -1,13 +1,17 @@
 import React from 'react';
+import AudioPlayer from 'react-h5-audio-player';
+
 import tataImage from './tata01.png';
 import tataAudio01 from './SanGabriel2025.ogg';
 
 function lyricsM() {
   return (
     <div>
-      <audio controls autoplay>
-        <source src={tataAudio01} type="audio/ogg" />
-      </audio>
+      <AudioPlayer
+        autoPlay
+        src={tataAudio01}
+        onPlay={e => console.log("Playing")}
+      />
       <br></br>
       <img src={tataImage} alt="TATA" style={{ maxWidth: '80%', maxHeight: '150v' }} />
     </div>
