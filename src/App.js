@@ -3,6 +3,7 @@ import './App.css';
 import ConstructionPage from './ConstructionPage.js';
 import LyricsM from './lyricsM';
 import YouTubeVideo from './YouTubeVideo.js';
+import YouTubeVideoAUTO from './YouTubeVideoAUTO.js';
 
 import YouTubeVideo_VR from './YouTubeVideo_VR.js';
 import YouTubeVideo_1VR from './YouTubeVideo_1VR.js';
@@ -15,6 +16,7 @@ import YouTubeVideo_2VC from './YouTubeVideo_2VC.js';
 function App() {
   return (
     <div className="App">
+      <YouTubeVideoAUTO videoId="50M-Prmo6f4" />
       <LyricsM />
       <h2 className="title">DOCUMENTAL "TATA SANTIAGO" - VERSIÓN RESUMIDA PARTE I y PARTE II</h2>
       <div className="video-wrapper">
