@@ -2,7 +2,7 @@ import React from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 
 import tataImage from './tata01.png';
-import tataAudio01 from './SanGabriel2025.ogg';
+import tataAudio01 from './SanGabriel2025.mp3';
 
 function lyricsM() {
   return (
