@@ -1,11 +1,10 @@
 import React from 'react';
 import tataImage from './tata01.png';
-import tataSound from './SanGabriel2025.mp3';
 
 function lyricsM() {
   return (
     <div>
-      <audio controls autoplay src={tataSound} type="audio/mpeg"/>
+      <audio controls autoPlay src="/SanGabriel2025.mp3" />
       <br></br>
       <img src={tataImage} alt="TATA" style={{ maxWidth: '80%', maxHeight: '150v' }} />
     </div>
