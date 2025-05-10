@@ -1,5 +1,5 @@
 import React from 'react';
-import tataImage from './tata01.jpeg';
+import tataImage from './tata01.png';
 import tataSound from './SanGabriel2025.mp3';
 
 function lyricsM() {
