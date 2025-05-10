@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import tataImage from './tata01.jpeg';
-import tataSound from './SanGabriel2025.mp3';
 import ConstructionPage from './ConstructionPage.js';
+import LyricsM from './lyricsM';
 import YouTubeVideo from './YouTubeVideo.js';
 
 import YouTubeVideo_VR from './YouTubeVideo_VR.js';
@@ -16,9 +15,7 @@ import YouTubeVideo_2VC from './YouTubeVideo_2VC.js';
 function App() {
   return (
     <div className="App">
-      <audio controls autoplay src={tataSound} type="audio/mpeg"/>
-      <br></br>
-      <img src={tataImage} alt="TATA" style={{ maxWidth: '80%', maxHeight: '150v' }} />
+      <LyricsM />
       <h2 className="title">DOCUMENTAL "TATA SANTIAGO" - VERSIÓN RESUMIDA PARTE I y PARTE II</h2>
       <div className="video-wrapper">
         <YouTubeVideo_VR videoId="KzeU0id_miE" />
